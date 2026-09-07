@@ -1,0 +1,517 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="北原雅樹先生の痛みの外来にかかる方法を、大きな文字でまとめた案内です。">
+<meta property="og:title" content="北原先生の痛み外来 受診ガイド">
+<meta property="og:description" content="北原雅樹先生の痛みの外来にかかる方法を、大きな文字でまとめた案内です。">
+<meta property="og:type" content="article">
+<style>
+  html { color-scheme: light dark; }
+  body { margin: 0; }
+  img { max-width: 100%; }
+  [hidden] { display: none !important; }
+</style>
+<title>北原先生の痛み外来 受診ガイド</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@500;700&family=Noto+Sans+JP:wght@400;500;700&display=swap">
+
+<style>
+  :root {
+    --ground: #F6F8F6;
+    --paper: #FFFFFF;
+    --ink: #1A2420;
+    --ink-soft: #4A5A54;
+    --line: #DCE3DF;
+    --accent: #1F5C55;
+    --accent-soft: #E4EFEB;
+    --alert: #8A4415;
+    --alert-soft: #F8EDE4;
+    --shadow: 0 1px 2px rgba(26, 36, 32, .06), 0 8px 24px rgba(26, 36, 32, .05);
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --ground: #101513;
+      --paper: #1A211E;
+      --ink: #E9EFEB;
+      --ink-soft: #A5B4AE;
+      --line: #2E3A35;
+      --accent: #74C4B2;
+      --accent-soft: #1D2E2A;
+      --alert: #E4A46C;
+      --alert-soft: #2C231A;
+      --shadow: 0 1px 2px rgba(0, 0, 0, .3), 0 8px 24px rgba(0, 0, 0, .25);
+    }
+  }
+
+  :root[data-theme="dark"] {
+    --ground: #101513;
+    --paper: #1A211E;
+    --ink: #E9EFEB;
+    --ink-soft: #A5B4AE;
+    --line: #2E3A35;
+    --accent: #74C4B2;
+    --accent-soft: #1D2E2A;
+    --alert: #E4A46C;
+    --alert-soft: #2C231A;
+    --shadow: 0 1px 2px rgba(0, 0, 0, .3), 0 8px 24px rgba(0, 0, 0, .25);
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    background: var(--ground);
+    color: var(--ink);
+    font-family: "Noto Sans JP", "Hiragino Kaku Gothic ProN", "Yu Gothic", Meiryo, sans-serif;
+    font-size: 20px;
+    line-height: 1.95;
+    font-weight: 400;
+    margin: 0;
+    padding: 32px 20px 80px;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  .wrap {
+    max-width: 660px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  /* ---- header ---- */
+  header { display: flex; flex-direction: column; gap: 14px; }
+
+  .eyebrow {
+    font-family: "Zen Maru Gothic", "Noto Sans JP", sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: .12em;
+    color: var(--accent);
+    margin: 0;
+  }
+
+  h1 {
+    font-family: "Zen Maru Gothic", "Noto Sans JP", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.5;
+    letter-spacing: .01em;
+    text-wrap: balance;
+    margin: 0;
+  }
+
+  .lede {
+    margin: 0;
+    font-size: 21px;
+    line-height: 1.9;
+  }
+
+  .lede b { color: var(--accent); font-weight: 700; }
+
+  /* ---- sections ---- */
+  section { display: flex; flex-direction: column; gap: 18px; }
+
+  h2 {
+    font-family: "Zen Maru Gothic", "Noto Sans JP", sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.6;
+    margin: 0;
+    padding-bottom: 10px;
+    border-bottom: 3px solid var(--accent);
+    text-wrap: balance;
+  }
+
+  p { margin: 0; }
+
+  .note { color: var(--ink-soft); font-size: 18px; line-height: 1.8; }
+
+  /* ---- card ---- */
+  .card {
+    background: var(--paper);
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    padding: 24px;
+    box-shadow: var(--shadow);
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+
+  .card h3 {
+    font-family: "Zen Maru Gothic", "Noto Sans JP", sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 1.6;
+    margin: 0;
+  }
+
+  /* ---- phone block ---- */
+  .tel {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    text-decoration: none;
+    color: inherit;
+    background: var(--accent-soft);
+    border: 2px solid var(--accent);
+    border-radius: 10px;
+    padding: 18px 22px;
+  }
+
+  .tel-label {
+    font-size: 17px;
+    font-weight: 700;
+    color: var(--accent);
+    line-height: 1.6;
+  }
+
+  .tel-number {
+    font-family: "Zen Maru Gothic", "Noto Sans JP", sans-serif;
+    font-size: 34px;
+    font-weight: 700;
+    letter-spacing: .03em;
+    font-variant-numeric: tabular-nums;
+    line-height: 1.4;
+    color: var(--ink);
+  }
+
+  .tel-when { font-size: 17px; color: var(--ink-soft); line-height: 1.7; }
+
+  .tel:focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; }
+
+  /* ---- steps (a real sequence: this is the order of actions) ---- */
+  ol.steps {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    counter-reset: step;
+  }
+
+  ol.steps > li {
+    counter-increment: step;
+    background: var(--paper);
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    padding: 22px 24px 22px 74px;
+    position: relative;
+    box-shadow: var(--shadow);
+  }
+
+  ol.steps > li::before {
+    content: counter(step);
+    position: absolute;
+    left: 20px;
+    top: 22px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    background: var(--accent);
+    color: var(--paper);
+    font-family: "Zen Maru Gothic", "Noto Sans JP", sans-serif;
+    font-size: 21px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+  }
+
+  ol.steps h3 { margin: 0 0 6px; }
+
+  /* ---- checklist ---- */
+  ul.check {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  ul.check li {
+    position: relative;
+    padding-left: 40px;
+    line-height: 1.8;
+  }
+
+  ul.check li::before {
+    content: "";
+    position: absolute;
+    left: 4px;
+    top: 12px;
+    width: 20px;
+    height: 20px;
+    border: 2px solid var(--accent);
+    border-radius: 4px;
+  }
+
+  /* ---- plain list ---- */
+  ul.plain {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  ul.plain li {
+    position: relative;
+    padding-left: 26px;
+    line-height: 1.8;
+  }
+
+  ul.plain li::before {
+    content: "";
+    position: absolute;
+    left: 4px;
+    top: 16px;
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background: var(--accent);
+  }
+
+  /* ---- caution ---- */
+  .caution {
+    background: var(--alert-soft);
+    border: 1px solid var(--alert);
+    border-left: 8px solid var(--alert);
+    border-radius: 8px;
+    padding: 22px 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .caution h3 {
+    font-family: "Zen Maru Gothic", "Noto Sans JP", sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    margin: 0;
+    color: var(--alert);
+    line-height: 1.6;
+  }
+
+  .caution ul.plain li::before { background: var(--alert); }
+
+  /* ---- address ---- */
+  dl.facts {
+    margin: 0;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 12px 20px;
+    align-items: baseline;
+  }
+
+  dl.facts dt {
+    font-weight: 700;
+    color: var(--accent);
+    font-size: 18px;
+    white-space: nowrap;
+  }
+
+  dl.facts dd { margin: 0; line-height: 1.8; }
+
+  footer {
+    border-top: 1px solid var(--line);
+    padding-top: 24px;
+    color: var(--ink-soft);
+    font-size: 17px;
+    line-height: 1.8;
+  }
+
+
+  a.pagelink {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    text-decoration: none;
+    color: inherit;
+    background: var(--accent-soft);
+    border: 3px solid var(--accent);
+    border-radius: 12px;
+    padding: 22px 24px;
+  }
+
+  a.pagelink:focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; }
+
+  .pagelink-lbl { font-size: 17px; font-weight: 700; color: var(--accent); line-height: 1.6; }
+
+  .pagelink-ttl {
+    font-family: "Zen Maru Gothic", "Noto Sans JP", sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.5;
+  }
+
+  strong.hl {
+    background: linear-gradient(transparent 62%, var(--accent-soft) 62%);
+    font-weight: 700;
+  }
+
+  @media (max-width: 520px) {
+    body { font-size: 19px; padding: 24px 16px 64px; }
+    h1 { font-size: 29px; }
+    h2 { font-size: 23px; }
+    .tel-number { font-size: 29px; }
+    ol.steps > li { padding: 20px 20px 20px 66px; }
+    dl.facts { grid-template-columns: 1fr; gap: 4px 0; }
+    dl.facts dd { margin-bottom: 10px; }
+  }
+
+  @media print {
+    body { background: #fff; color: #000; font-size: 12pt; padding: 0; }
+    .card, ol.steps > li { box-shadow: none; }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    * { animation: none !important; transition: none !important; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <p class="eyebrow">お父さん・お母さんへ</p>
+    <h1>北原雅樹先生の<br>痛み外来にかかる方法</h1>
+    <p class="lede">結論から言うと、北原先生は<b>いまも診察をしています</b>。ただし、行けば診てもらえる外来ではありません。<strong class="hl">かかりつけの先生に「紹介状」を書いてもらうこと</strong>が、いちばん最初にやることです。</p>
+  </header>
+
+  <section>
+    <h2>どこの病院にいるの？</h2>
+    <div class="card">
+      <dl class="facts">
+        <dt>病院</dt>
+        <dd>横浜市立大学附属<br>市民総合医療センター</dd>
+        <dt>診療科</dt>
+        <dd>ペインクリニック内科<br>（痛みの専門外来）</dd>
+        <dt>住所</dt>
+        <dd>〒232-0024<br>横浜市南区浦舟町4-57</dd>
+        <dt>最寄り駅</dt>
+        <dd>阪東橋駅（地下鉄・京急）</dd>
+        <dt>診察日</dt>
+        <dd>月曜〜金曜（土日祝は休み）</dd>
+      </dl>
+      <p class="note">北原先生は火曜〜金曜あたりに外来があります。曜日は変わることがあるので、電話で確かめてください。</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>受けるまでの4つの段どり</h2>
+    <ol class="steps">
+      <li>
+        <h3>かかりつけの先生に相談する</h3>
+        <p>「横浜市大センター病院の ペインクリニック内科、北原雅樹先生に紹介してほしい」と伝えてください。紹介状（正式には診療情報提供書）を書いてもらいます。</p>
+      </li>
+      <li>
+        <h3>通っている病院ぜんぶの紹介状をそろえる</h3>
+        <p>1通ではありません。<strong class="hl">いま通っている病院すべて</strong>から紹介状が必要です。飲んでいる薬が重なっていないかを、先生が確かめるためです。</p>
+      </li>
+      <li>
+        <h3>病院に紹介状をFAXしてもらう</h3>
+        <p>ペインクリニック内科は、紹介状のFAXが届いてから予約の話が進みます。かかりつけの病院の受付にお願いすれば、やってもらえます。</p>
+      </li>
+      <li>
+        <h3>予約の電話を入れる</h3>
+        <p>下の番号にかけて、「ペインクリニック内科を受けたい」「できれば北原先生でお願いしたい」と伝えてください。</p>
+      </li>
+    </ol>
+  </section>
+
+  <section>
+    <h2>電話するところ</h2>
+
+    <a class="tel" href="tel:0452535757">
+      <span class="tel-label">まずはここ ／ 初めての予約</span>
+      <span class="tel-number">045-253-5757</span>
+      <span class="tel-when">平日 9時〜17時<br>受けたい日の前日15時までに</span>
+    </a>
+
+    <a class="tel" href="tel:0452615656">
+      <span class="tel-label">病院の代表 ／ 曜日や混み具合をきく</span>
+      <span class="tel-number">045-261-5656</span>
+      <span class="tel-when">北原先生の外来がいつあるかは、こちらで確認できます</span>
+    </a>
+
+    <p class="note">スマートフォンで見ている場合は、番号を指で押すとそのまま電話がかけられます。LINEでも予約できますが、電話のほうが確実です。</p>
+  </section>
+
+  <section>
+    <h2>当日、持っていくもの</h2>
+    <div class="card">
+      <ul class="check">
+        <li>紹介状（通っている病院すべての分）</li>
+        <li>お薬手帳</li>
+        <li>これまでのレントゲン・CT・MRIの画像や結果</li>
+        <li>血液検査の結果</li>
+        <li>健康診断の結果（あれば）</li>
+        <li>保険証・診察券</li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <h2>知っておいてほしいこと</h2>
+    <div class="caution">
+      <h3>初めての日は3時間以上かかります</h3>
+      <ul class="plain">
+        <li>検査 → 問診 → 診察と続くため、半日みておいてください。付き添いの人がいると安心です。</li>
+        <li>予約はとても混んでいます。病院も「予約を取るのが大変むずかしい」と案内しています。あせらず、気長に構えてください。</li>
+        <li>遠方の人には、病院から「お近くの病院へ」とすすめられることがあります。治療は何度も通う形になるためです。</li>
+        <li>痛みの相談を電話ですることはできません。相談は下の専用の窓口へ。</li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <h2>横浜まで通うのが大変なとき</h2>
+    <p>北原先生と同じ「集学的痛みセンター」という、痛みをチームで診る病院が各地にあります。近い順に選べます。</p>
+    <div class="card">
+      <h3>関西・中部にある病院</h3>
+      <ul class="plain">
+        <li>大阪大学医学部附属病院　疼痛医療センター</li>
+        <li>千里山病院　集学的痛みセンター（大阪）</li>
+        <li>滋賀医科大学附属病院　学際的痛み治療センター</li>
+        <li>愛知医科大学病院　痛みセンター</li>
+        <li>名古屋市立大学病院　いたみセンター</li>
+      </ul>
+    </div>
+    <a class="tel" href="tel:0561573000">
+      <span class="tel-label">どこへ行けばいいか迷ったら ／ 慢性の痛み情報センター</span>
+      <span class="tel-number">0561-57-3000</span>
+      <span class="tel-when">平日 9時〜17時<br>相談にのってくれる公式の窓口です</span>
+    </a>
+  </section>
+
+  <section>
+    <h2>家にいながら先生の話が聞けます</h2>
+    <div class="card">
+      <ul class="plain">
+        <li><strong>インターネットで、先生の動画が無料で見られます</strong><br>北原先生ご本人が、痛みとのつき合い方をやさしく話しています。テレビのように、見るだけで大丈夫です。スマホやパソコンで「北原先生の痛み塾」と入力して探すと出てきます。</li>
+        <li><strong>本『慢性痛は治ります！』（北原雅樹 著）</strong><br>読んでおくと、診察のときの話がわかりやすくなります。</li>
+      </ul>
+      <p class="note">見ておくと、「なぜ痛みを心と体の両方から診るのか」がつかめます。</p>
+    </div>
+    <a class="pagelink" href="videos.html">
+      <span class="pagelink-lbl">おすすめの動画をまとめました</span>
+      <span class="pagelink-ttl">見る順番はこちら →</span>
+    </a>
+  </section>
+
+  <footer>
+    <p>この案内は、病院の公式ホームページと、2026年8月1日時点の外来診療担当医表をもとにまとめました。曜日・混み具合・予約のやり方は変わることがあります。動く前に、必ず一度お電話で確かめてください。</p>
+  </footer>
+
+</div>
+</body>
+</html>
